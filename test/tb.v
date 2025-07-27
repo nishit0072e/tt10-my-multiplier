@@ -32,7 +32,7 @@ module tb ();
 `endif
 
   // Instantiate the user project
-  tt_um_nishit0072e_multiplier user_project (
+  tt_um_nishit0072e_mult user_project (
 
       // Include power ports for the Gate Level test:
 `ifdef GL_TEST
