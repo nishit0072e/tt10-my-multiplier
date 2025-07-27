@@ -1,7 +1,7 @@
-Of course. Here is the completed testbench with a stimulus block to generate a clock, handle the reset sequence, and apply a series of test vectors to your multiplier.
+/*Of course. Here is the completed testbench with a stimulus block to generate a clock, handle the reset sequence, and apply a series of test vectors to your multiplier.
 
 The stimulus tests several multiplication cases, including `3 * 2`, `7 * 5`, and the maximum value `15 * 15`. It accounts for the **two-cycle pipeline latency** of your design by waiting two clock cycles after applying an input before checking the output.
-
+*/
 `default_nettype none
 `timescale 1ns / 1ps
 
